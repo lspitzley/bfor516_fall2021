@@ -27,7 +27,7 @@ date_title = 'COVID-19 Cases in the Capital Region (' + str(today) + ")"
 
 #%% see data types
 
-county.dtypes
+print(county.dtypes)
 
 
 # convert dates
@@ -39,7 +39,6 @@ print(county.describe(include='all', datetime_is_numeric=True))
 
 
 #%% lab start
-
 
 # Set the names of the county
 cr = ['Albany', 'Columbia', 'Fulton', 'Greene', 'Montgomery', 'Rensselaer', 
@@ -66,3 +65,13 @@ county_plot.get_figure()
 #%% save to file
 # Save the figure
 county_plot.get_figure().savefig(output, bbox_inches='tight', dpi=300)
+
+
+#%% 
+
+"""
+This is a block comment
+
+The only purpose is to show the change in Git.
+
+"""
