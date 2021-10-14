@@ -131,3 +131,4 @@ dmypy.json
 output/*
 data/kddcup.data_10_percent_corrected
 data/creditcard.csv
+data/lendingclub_2015-2018.csv
